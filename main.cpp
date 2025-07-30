@@ -35,7 +35,7 @@ int main() {
 
         typed_text += ch;
 
-        update_display(typed_text, text_to_type);
+        update_display(typed_text, text_to_type, ch);
     };
 
     return 0;
